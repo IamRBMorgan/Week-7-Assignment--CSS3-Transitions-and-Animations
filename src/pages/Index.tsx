@@ -1,4 +1,3 @@
-
 import { useEffect, useState, useRef } from 'react';
 import { Button } from '@/components/ui/button';
 import { Card } from '@/components/ui/card';
@@ -8,7 +7,7 @@ import AnimatedShapes from '@/components/AnimatedShapes';
 import AnimatedCard from '@/components/AnimatedCard';
 import ThemeToggle from '@/components/ThemeToggle';
 import PreferencePanel from '@/components/PreferencePanel';
-import { useToast } from '@/components/ui/toast';
+import { useToast } from '@/hooks/use-toast';
 
 const Index = () => {
   const [particleSettings, setParticleSettings] = useState({
